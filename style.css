@@ -1,3 +1,5 @@
+@import url(https://info20005.github.io/Layout-Composition/reset.css);
+
 header {
     padding: 0em;
     display: flex;
