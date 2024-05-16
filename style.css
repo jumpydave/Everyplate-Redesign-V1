@@ -10,7 +10,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 1em;
+    padding: 1em;
     background-color: #96160B;
 }
 
