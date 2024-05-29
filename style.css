@@ -30,6 +30,14 @@ body {
     display: grid;
 }
 
+.kit-button {
+    padding: 5em;
+    background-color: white;
+}
+
+.main {
+    background-color: #EEE5B7;
+}
 
 .header-image {
     height: 5rem;
