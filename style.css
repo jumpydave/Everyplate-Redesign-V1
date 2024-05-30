@@ -64,3 +64,7 @@ body {
     color: white;
 }
 
+#buy_button{
+    background-color: var(--epRed);
+}
+
