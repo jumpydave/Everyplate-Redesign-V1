@@ -5,6 +5,8 @@
     --epRed: #96160B;
     --epOrange: #FCB017;
     --epOrange-selected: #d69410;
+
+    --epGallerySize: 14em;
 }
 
 a, a:hover, a:visited, a:active {
@@ -21,8 +23,15 @@ body {
 .heading{
     display: flex;
     justify-content: center;
-    background-color: var(--epRed);
+    background-color: var(--epBackground);
     color: white;
+}
+
+.heading > h2{
+    background-color: var(--epRed);
+    padding: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 
 .horizontal-flex{
@@ -35,15 +44,26 @@ body {
     background-color: var(--epRed) ;
 }
 
-.header {
+.header-text {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
     padding-right: 1em;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header> *{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .variable-flex{
-    display: grid;
+    display: flex;
 }
 
 .kit-button {
@@ -56,11 +76,10 @@ body {
 }
 
 .header-image {
-    height: 5rem;
+    height: 4rem;
 }
 
 .button-rounded {
-
     background-color: var(--epOrange);
     padding: 1em;
     padding-left: 2em;
@@ -74,18 +93,18 @@ body {
 }
 
 .menu-image{
-    width: 12em;
+    max-width: var(--epGallerySize);
     
 }
 
 .menu-item{
-    padding: .5em;
+    padding: .1em;
     background-color: var(--epRed);
-
 }
 
 .menu-item>h3{
     background-color: var(--epBackground);
+    max-width: var(--epGallerySize);
 }
 
 #buy_button{
@@ -95,9 +114,10 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
     background-color: var(--epOrange);
 }
+
 
 body{
     min-height: 100vh;
@@ -111,7 +131,7 @@ footer{
 }
 
 #content{
-    padding: 3em ;
+    padding: 3em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -126,7 +146,13 @@ footer{
     flex-grow: 1;
 }
 
+#about > p{
+    background-color: var(--epOrange);
+    padding: 1em;
+}
+
 #menu{
+    margin: 0em;
     flex-basis: 0;
     flex-grow: 999;
     min-width: 50%;
