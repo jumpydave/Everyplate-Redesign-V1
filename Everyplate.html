@@ -83,8 +83,24 @@
 <footer>
     <div id="signup-div" class="flex horizontal-flex signup footer">
         <a href="Checkout.html" id="buy-button" class="button button-rounded">Buy Now</a>
-        <a href="#" id="signup-button" class="button button-rounded">Sign up</a>
+        <button id="signup-button" class="button button-rounded" onclick="openForm()">Sign up</button>
     </div>
 </footer>
+
+<div class="signUpPopUp" id="signUpForm">
+    <form action="/signUp.php" class="form-container">
+    <h1>Sign Up</h1>
+    
+    <label for="userName"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="userName" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <button type="createProfile" class="button button-rounded">Create Profile</button>
+    <button type="button" class="button button-rounded" onclick="closeForm()">Back</button>
+    </form>
+</div>
+
 
 </html>
