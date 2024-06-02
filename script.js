@@ -1,7 +1,7 @@
 pogchampion
 
 function openForm() {
-    document.getElementById("signUpForm").style.display = "block";
+    document.getElementById("signUpForm").style.display = "flex";
 }
 
 function closeForm() {
