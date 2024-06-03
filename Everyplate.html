@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EveryPlate</title>
+    <title>MostlyPlate</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -26,14 +26,10 @@
                 <h2>About Us</h2>
             </div>
             <p>EveryPlate is a flexible meal kit subscription service.
-                <br>
-                <br>
 
                 Each week, we deliver fresh, quality ingredients and simple recipes to your door,
                 making it easy to cook fuss-free, filling and tasty dinners. Each recipe has
                 easy-to-follow instructions that put you in control of dinner!
-                <br>
-                <br>
 
                 We're super flexible, so you can skip a week or cancel your subscription any time
                 before your weekly order cut-off. You can find your weekly order cut-off in the 
@@ -101,30 +97,28 @@
     <form action="/signUp.php" class="form-container">
     <h1 id="signUpHeader">Sign Up</h1>
     <div>
-    <label for="userName"><b><br><br>Username</b></label>
+    <label for="userName"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="userName" required>
     </div>
     <div>
-    <label for="password"><b><br><br>Password</b></label>
+    <label for="password"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="password" required>
-    <br><br>
-    <br><br>
     </div>
     <button type="button" class="button button-rounded" onclick="closeForm()">Create Profile</button>
-    <br><br>
     <button type="button" class="button button-rounded" onclick="closeForm()">Back</button>
     </form>
 </div>
 
 <div class="signUpPopUp" id="foodForm">
     <form action="/signUp.php" class="form-container">
-    <div class="menu-item">
-        <img src="food2.avif" class="image expanded-image menu">
+    <li class="menu-item">
+        <img src="food2.avif" class="image menu-image menu">
         <h3>Chicken Burger with Wedges</h3>
-    <p>Delicious chicken burger With tomato lettuce and mayonaise, as well as a side of wedges. Chicken can be substituted with a veggie patty if required.</p>
-    <button type="button" class="button button-rounded" onclick="closeFood()">Back</button>
-    </div>
+    </li>
+    <p>Delicious chicken burger With tomato lettuce and mayonaise, as well as a side of wedges. Chicken can be substituted with a vege patty if required.</p>
+    
 
+    <button type="button" class="button button-rounded" onclick="closeFood()">Back</button>
     </form>
 </div>
 

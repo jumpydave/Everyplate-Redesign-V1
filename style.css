@@ -187,7 +187,7 @@ footer{
 }
 
 .signUpPopUp {
-    display: flex;
+    display: none;
     position: fixed;
     border: 2px solid black;
     background-color:#96160B;
