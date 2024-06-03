@@ -111,12 +111,14 @@ body {
     padding: 0.1em;
     margin: 0.5em;
     background-color: var(--epRed);
+    padding-bottom: 0.5em;
 }
 
 .menu-item>h3{
     color: white;
     text-align: center;
     max-width: var(--epGallerySize);
+    padding-top: 0.5em;
 }
 
 .padding{
@@ -125,10 +127,6 @@ body {
 
 }
 
-
-#buy_button{
-    background-color: greenyellow;
-}
 
 .gallery {
     display: flex;
@@ -165,6 +163,7 @@ footer{
 .sidebar-left{
     flex-basis: 20rem;
     flex-grow: 1;
+    flex-direction: column;
     margin: 1em;
     background-color: var(--epOrange);
 }
@@ -196,6 +195,53 @@ footer{
 
 }
 
+.square-grid{
+  margin: 4rem;
+  margin-right: 0px;
+  width:30em;
+  height:30em;
+
+  display:grid;
+  grid-template-columns: 15em 15em;
+  grid-row: auto auto;
+
+  .box-display{
+    background-color: white;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 2rem;
+    border: solid black;
+  }
+}
+
+
+#top-left{
+    border-top-left-radius: 1em;
+    border-width: 2px 1px 1px 2px;
+}
+#top-right{
+    border-top-right-radius: 1em;
+    border-width: 2px 2px 1px 1px;
+}
+#bottom-left{
+    border-bottom-left-radius: 1em;
+    border-width: 1px 1px 2px 2px;
+}
+#bottom-right{
+    border-bottom-right-radius: 1em;
+    border-width: 1px 2px 2px 1px;
+}
+
+.content{
+    justify-content: center;
+}
+
 #map{
     width: 40em;
+}
+
+.vertical-flex{
+    
 }
