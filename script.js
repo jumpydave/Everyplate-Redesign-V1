@@ -20,6 +20,14 @@ function closeForm() {
     document.getElementById("signUpForm").style.display = "none";
 }
 
+function openFood() {
+    document.getElementById("foodForm").style.display = "flex";
+}
+
+function closeFood() {
+    document.getElementById("foodForm").style.display = "none";
+}
+
 function topLeftSelect() {
     elem = document.getElementById("top-left");
 

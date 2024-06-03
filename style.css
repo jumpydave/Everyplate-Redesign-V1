@@ -199,8 +199,20 @@ footer{
     left: 25%;
     top: 25%; 
     Bottom: 25%;
-
 }
+
+#signUpHeader {
+    color: white;
+    background-color: var(--epRed);
+    padding: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: center;
+    right: 25%;
+    left: 25%;
+    top: 25%;
+}
+
 
 .square-grid{
   margin: 4rem;
@@ -379,3 +391,4 @@ footer{
     background-color: var(--epOrange);
     flex-grow: 1;
 }
+
