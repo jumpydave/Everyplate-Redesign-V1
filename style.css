@@ -247,9 +247,10 @@ footer{
 }
 
 #map{
-    width: 30em;
+    max-width: 40em;
     border: 2px solid var(--epRed);
 }
+
 
 .horizontal-selection{
     justify-content: center;
