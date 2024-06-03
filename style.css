@@ -61,7 +61,7 @@ body {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-right: 1em;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .header-image {
-    height: 4rem;
+    height: 3rem;
 }
 
 .button-rounded {
