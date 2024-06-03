@@ -428,17 +428,6 @@ footer{
       }
 
       .signUpPopUp {
-        display: none;
-        position: fixed;
-        border: 2px solid black;
-        background-color:#96160B;
-        color: white;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: top;
-        background-color: var(--epBackground);
-        z-index: 9;
-
         right: 10%;
         left: 10%;
         top: 20%; 
