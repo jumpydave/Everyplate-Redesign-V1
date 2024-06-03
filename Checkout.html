@@ -12,51 +12,56 @@
 <body>
     <header class="horizontal-flex header">
         <a href="Everyplate.html" id="home-button">
-        <img src="home icon.png" class="header header-image home-logo">
+            <img src="home icon.png" class="header header-image home-logo">
         </a>
         <h1 id="Page title" class="header-text page-title">Everyplate</h1>
         <img src="profile icon.png" class=" header header-image account-logo">
     </header>
-    <div class="horizontal-flex">
-        <div>
+
+    <div class="sidebar centred">
+        <div class="sidebar-left text-menu">
             <div>
-                <h2>Your order</h2>
-                <h3>This week you're getting...</h3>
-                <ul id="cart-list">
+                <h2 class="b-red">Your order</h2>
+                <h3 class="b-red">This week you're getting...</h3>
+                <ul id="cart-list" class="menu-padding">
                     <li>4 x Salmon Toasties</li>
                     <li>4 x Chilli Chicken with Rice</li>
                     <li>4 x Steak and Mash with Grilled Greens</li>
-                    <li>4 xBeef Tacos with Salsa Verde</li>
+                    <li>4 x Beef Tacos with Salsa Verde</li>
                     <li>4 x Seafood Linguine</li>
                 </ul>
             </div>
 
-            <div class="horizontal-flex">
-                <p>Your total is:</p>
-                <p id="cart-total">$0.00</p>
+            <div class="horizontal-flex spaced menu-padding bottom">
+                <p>Your total is: </p>
+                <p id="cart-total"> $83.99</p>
             </div>
         </div>
 
-        <div>
-            <div>
-                <h2>Checkout</h2>
-                <h3>Credit Card Number</h3>
-                <input type="text" id="Card-Number">
-                <div class="horizontal-flex">
-                    <div>
-                        <h3>CVV</h3>
-                        <input type="text" id="CVV">
-                    </div>
-                    <div>
-                        <h3>Expiry Date</h3>
-                        <input type="month" id="Expiry">
+        <div class="sidebar-right text-menu ">
+            <div class="flex-vertical centred space-between">
+                <h2 class="b-red">Checkout</h2>
+                <div class="menu-content">
+                    <h3>Credit Card Number</h3>
+                    <input type="text" id="Card-Number">
+
+                    <div class="horizontal-flex">
+                        <div>
+                            <h3>CVV</h3>
+                            <input type="text" id="CVV">
+                        </div>
+                        <div>
+                            <h3>Expiry Date</h3>
+                            <input type="month" id="Expiry">
+                        </div>
                     </div>
                 </div>
-                <div>
+                <div class="horizontal-flex">
                     <a href="Everyplate.html">← Back</a>
-                    <a href="order-confirmed.html" class="button button-rounded">Next</a>
-                    </div>
+                    <a href="order-confirmed.html" class="button button-rounded">Confirm</a>
+                </div>
             </div>
+
         </div>
     </div>
 
