@@ -8,8 +8,6 @@ function closeForm() {
     document.getElementById("signUpForm").style.display = "none";
 }
 
-
-
 function topLeftSelect() {
     alert(topLeftToggle)
     elem = document.getElementById("top-left");
