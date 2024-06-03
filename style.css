@@ -349,8 +349,24 @@ footer{
     margin-right: 1em;
 }
 
-.green{
-    background-color: greenyellow;
-    align-items: center;
+
+#delivery-content{
+    padding-left: 5em;
+    padding-top: .5em;
 }
 
+#delivery-content > *{
+    padding-top: 0.5em;
+}
+
+.address-entry{
+    width: 40em;
+}
+
+.brute-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
