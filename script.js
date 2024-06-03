@@ -8,6 +8,10 @@ let rpwThreeToggle = 0;
 let rpwFiveToggle = 0;
 let rpwSixToggle = 0;
 
+let nopTwoToggle = 0;
+let nopFourToggle = 0;
+let nopSixToggle = 0;
+
 function openForm() {
     document.getElementById("signUpForm").style.display = "flex";
 }
@@ -159,4 +163,44 @@ function rpwSix() {
     }
 }
 
+function clearCellsNop() {
+    document.getElementById("nopTwo").style.backgroundColor = "white"
+    document.getElementById("nopFour").style.backgroundColor = "white"
+    document.getElementById("nopSix").style.backgroundColor = "white"
+    nopTwoToggle = 0
+    rpwFourToggle = 0
+    nopSixToggle = 0
+}
 
+function nopTwo() {
+    clearCellsNop()
+
+    elem = document.getElementById("nopTwo");
+
+    if (nopTwoToggle == 0) {
+    elem.style.backgroundColor = "#FCB017";
+    nopTwoToggle = 1;    
+    }
+}
+
+function nopFour() {
+    clearCellsNop()
+
+    elem = document.getElementById("nopFour");
+
+    if (rpwFourToggle == 0) {
+    elem.style.backgroundColor = "#FCB017";
+    nopFourToggle = 1;    
+    }
+}
+
+function nopSix() {
+    clearCellsNop()
+
+    elem = document.getElementById("nopSix");
+
+    if (nopSixToggle == 0) {
+    elem.style.backgroundColor = "#FCB017";
+    nopSixToggle = 1;    
+    }
+}
