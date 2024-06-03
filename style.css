@@ -242,6 +242,37 @@ footer{
     width: 40em;
 }
 
-.vertical-flex{
+.horizontal-selection{
+    justify-content: center;
+    margin: 2em;
+}
+
+.horizontal-selection > li{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 3.2em;
+    border: solid black;
+    border-width: 2px;
+}
+
+.horizontal-selection > li:not(:last-child) {
+    border-right: 0px;
+}
+
+.first-rounded{
     
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.last-rounded{
+    border-right-width: 2px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
 }
