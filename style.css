@@ -14,6 +14,11 @@ a, a:hover, a:visited, a:active {
     text-decoration: none;
 }
 
+h1{
+    color: white;
+    font-size: 1.5em;
+}
+
 
 body {
     background-color: var(--epBackground);
@@ -24,10 +29,11 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--epBackground);
-    color: white;
+
 }
 
 .heading > h2{
+    color: white;
     background-color: var(--epRed);
     padding: 1em;
     border-top-left-radius: 1em;
@@ -146,6 +152,7 @@ footer{
 #content{
     padding: 3em;
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
 }
