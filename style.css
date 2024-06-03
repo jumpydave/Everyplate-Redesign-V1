@@ -189,10 +189,12 @@ footer{
 .signUpPopUp {
     display: none;
     position: fixed;
-    border: 3px solid #EEE5B7;
+    border: 3px solid #96160B;
+    background-color:#96160B;
+    color: white;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
     background-color: var(--epBackground);
     z-index: 9;
     right: 25%;
@@ -201,13 +203,23 @@ footer{
     Bottom: 25%;
 }
 
+
+#signUpForm {
+    background-color:#96160B;    
+}
+
 #signUpHeader {
     color: white;
-    background-color: var(--epRed);
+    background-color:#96160B;
     padding: 1em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
+
+}
+
+#foodForm {
+    background-color:#96160B; 
 }
 
 
