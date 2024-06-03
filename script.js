@@ -123,11 +123,7 @@ function rpwThree() {
     if (rpwThreeToggle == 0) {
     elem.style.backgroundColor = "#FCB017";
     rpwThreeToggle = 1;    
-    }else{
-        elem.style.backgroundColor = "white";
-        rpwThreeToggle = 0;
     }
-
 }
 
 function rpwFour() {
@@ -138,11 +134,7 @@ function rpwFour() {
     if (rpwFourToggle == 0) {
     elem.style.backgroundColor = "#FCB017";
     rpwFourToggle = 1;    
-    }else{
-        elem.style.backgroundColor = "white";
-        rpwFourToggle = 0;
     }
-
 }
 
 function rpwFive() {
@@ -153,11 +145,7 @@ function rpwFive() {
     if (rpwFiveToggle == 0) {
     elem.style.backgroundColor = "#FCB017";
     rpwFiveToggle = 1;    
-    }else{
-        elem.style.backgroundColor = "white";
-        rpwFiveToggle = 0;
     }
-
 }
 
 function rpwSix() {
@@ -168,11 +156,7 @@ function rpwSix() {
     if (rpwSixToggle == 0) {
     elem.style.backgroundColor = "#FCB017";
     rpwSixToggle = 1;    
-    }else{
-        elem.style.backgroundColor = "white";
-        rpwSixToggle = 0;
     }
-
 }
 
 
