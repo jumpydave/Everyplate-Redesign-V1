@@ -187,9 +187,9 @@ footer{
 }
 
 .signUpPopUp {
-    display: none;
+    display: flex;
     position: fixed;
-    border: 3px solid #96160B;
+    border: 2px solid black;
     background-color:#96160B;
     color: white;
     flex-direction: row;
@@ -199,8 +199,15 @@ footer{
     z-index: 9;
     right: 25%;
     left: 25%;
-    top: 25%; 
-    Bottom: 25%;
+    top: 15%; 
+    Bottom: 10%;
+}
+
+.signUpPopUp > *{
+    margin: 0.5em;
+    h3{
+        font-size: 1.2em;
+    }
 }
 
 
