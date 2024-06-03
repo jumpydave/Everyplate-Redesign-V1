@@ -200,7 +200,7 @@ footer{
     right: 25%;
     left: 25%;
     top: 15%; 
-    Bottom: 10%;
+    Bottom: 20%;
 }
 
 .signUpPopUp > *{
@@ -438,11 +438,11 @@ footer{
         align-items: top;
         background-color: var(--epBackground);
         z-index: 9;
-
+        width: 80%;
         right: 10%;
         left: 10%;
         top: 20%; 
-        Bottom: 40%;
+        Bottom: 43%;
     }
 
     .expanded-image{
@@ -466,7 +466,7 @@ footer{
     }
     
     .header-text{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .header{
