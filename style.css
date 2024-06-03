@@ -247,7 +247,7 @@ footer{
 }
 
 #map{
-    width: 40em;
+    width: 30em;
 }
 
 .horizontal-selection{
@@ -342,5 +342,15 @@ footer{
 
 .pad-top{
     padding-top: 0.5em;
+}
+
+#CVV {
+    width: 3em;
+    margin-right: 1em;
+}
+
+.green{
+    background-color: greenyellow;
+    align-items: center;
 }
 
