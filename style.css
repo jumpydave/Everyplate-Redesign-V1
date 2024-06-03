@@ -373,6 +373,23 @@ footer{
     padding-top: 0.5em;
 }
 
+@media only screen and (max-width: 600px) {
+    #delivery-content {
+      padding-left: 1em;
+    }
+
+    #map{
+        width: 230px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar > *{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
+
 .address-entry{
     max-width: 40em;
 }
