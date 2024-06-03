@@ -427,6 +427,28 @@ footer{
         }
       }
 
+      .signUpPopUp {
+        display: none;
+        position: fixed;
+        border: 2px solid black;
+        background-color:#96160B;
+        color: white;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: top;
+        background-color: var(--epBackground);
+        z-index: 9;
+        width: 80%;
+        right: 10%;
+        left: 10%;
+        top: 20%; 
+        Bottom: 43%;
+    }
+
+    .expanded-image{
+        width: 75%;
+    }
+
     .horizontal-selection{
         margin-right: 9em;
     }
