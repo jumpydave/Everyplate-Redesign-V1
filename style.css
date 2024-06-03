@@ -33,6 +33,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 .heading{
     display: flex;
     justify-content: center;
@@ -200,7 +202,7 @@ footer{
     right: 25%;
     left: 25%;
     top: 15%; 
-    Bottom: 20%;
+    Bottom: 13%;
 }
 
 .signUpPopUp > *{
@@ -389,6 +391,11 @@ footer{
     padding-top: 0.5em;
 }
 
+.expanded-image{
+    width: 100%;
+}
+
+
 @media only screen and (max-width: 600px) {
     #delivery-content {
       padding-left: 1em;
@@ -431,11 +438,11 @@ footer{
         right: 10%;
         left: 10%;
         top: 20%; 
-        Bottom: 43%;
+        Bottom: 25%;
     }
 
     .expanded-image{
-        width: 75%;
+        width: 100%;
     }
 
     .horizontal-selection{
@@ -484,4 +491,6 @@ footer{
     flex-grow: 1;
 }
 
-
+#createProfile {
+    color: black;
+}
