@@ -397,7 +397,54 @@ footer{
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .square-grid{
+        margin: 0.5rem;
+        margin-right: 0px;
+        margin-left: 0px;
+        width:12em;
+        height:12em;
+      
+        display:grid;
+        grid-template-columns: 6em 6em;
+        grid-row: auto auto;
+      
+        .box-display{
+          background-color: white;
+          padding: 12px;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          font-size: 0.7rem;
+          border: solid black;
+        }
+      }
+
+    .horizontal-selection{
+        margin-right: 9em;
+    }
+
+    .header> *{
+        margin: 0;
+    }
+
+    .horizontal-selection > li{
+        padding: 0.7em;
+
+    }
+    .sidebar > * {
+        margin: 0.5em;
+    }
+    
+    .header-text{
+        font-size: 1rem;
+    }
+
+    .header{
+        width: auto;
+    }
   }
+
 
 .address-entry{
     max-width: 40em;
