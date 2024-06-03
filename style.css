@@ -172,7 +172,6 @@ footer{
     flex-grow: 1;
     flex-direction: column;
     margin: 1em;
-    background-color: var(--epOrange);
 }
 
 .sidebar-left > p{
@@ -248,6 +247,7 @@ footer{
 
 #map{
     width: 30em;
+    border: 2px solid var(--epRed);
 }
 
 .horizontal-selection{
@@ -360,7 +360,7 @@ footer{
 }
 
 .address-entry{
-    width: 40em;
+    max-width: 40em;
 }
 
 .brute-center{
@@ -374,3 +374,7 @@ footer{
     margin-top: auto;
 }
 
+.b-orange{
+    background-color: var(--epOrange);
+    flex-grow: 1;
+}
