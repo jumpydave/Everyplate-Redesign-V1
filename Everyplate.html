@@ -11,7 +11,9 @@
 
 <body>
     <header class="horizontal-flex header">
-        <img src="home icon.png" class="header header-image home-logo">
+        <a href="Everyplate.html" id="home-button">
+            <img src="home icon.png" class="header header-image home-logo">
+        </a>
         <h1 id="Page title" class="header-text page-title">Everyplate</h1>
         <img src="profile icon.png" class=" header header-image account-logo">
     </header>
@@ -38,41 +40,41 @@
             </div>
             <ul class="gallery">
                 <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Salmon Toasties</h3>
+                    <img src="food1.avif" class="image menu-image menu">
+                    <h3>Chicken Curry</h3>
                 </li>
 
                 <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Steak and mash with Grilled Greens</h3>
+                    <img src="food2.avif" class="image menu-image menu">
+                    <h3>Chicken Burger with Wedges</h3>
                 </li>
                 <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Chilli Chicken and Rice</h3>
-                </li>
-
-                <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Tomato Mash Potatoes</h3>
+                    <img src="food3.avif" class="image menu-image menu">
+                    <h3>Pasta Bolognese</h3>
                 </li>
 
                 <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Vegetarian Dahl</h3>
+                    <img src="food4.avif" class="image menu-image menu">
+                    <h3>Chicken Sandwich with Wedges and Corn</h3>
                 </li>
 
                 <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Tuna Toasties</h3>
-                </li>
-                <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Beef Tacos with Salsa Verde</h3>
+                    <img src="food5.avif" class="image menu-image menu">
+                    <h3>Pork Tacos</h3>
                 </li>
 
                 <li class="menu-item">
-                    <img src="image.png" class="image menu-image menu">
-                    <h3>Seafood Linguine</h3>
+                    <img src="food6.avif" class="image menu-image menu">
+                    <h3>Bean Quesadilla</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="food7.avif" class="image menu-image menu">
+                    <h3>Beef Curry</h3>
+                </li>
+
+                <li class="menu-item">
+                    <img src="food8.avif" class="image menu-image menu">
+                    <h3>Hamburger with Coleslaw and Fries</h3>
                 </li>
             </ul>
         </div>
@@ -82,9 +84,25 @@
 
 <footer>
     <div id="signup-div" class="flex horizontal-flex signup footer">
-        <a href="EveryplateBuyPage.html" id="buy-button" class="button button-rounded">Buy Now</a>
-        <a href="#" id="signup-button" class="button button-rounded">Sign up</a>
+        <a href="Mealsize.html" id="buy-button" class="button button-rounded">Buy Now</a>
+        <button id="signup-button" class="button button-rounded" onclick="openForm()">Sign up</button>
     </div>
 </footer>
+
+<div class="signUpPopUp" id="signUpForm">
+    <form action="/signUp.php" class="form-container">
+    <h1>Sign Up</h1>
+    
+    <label for="userName"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="userName" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="text" placeholder="Enter Password" name="password" required>
+
+    <button type="createProfile" class="button button-rounded">Create Profile</button>
+    <button type="button" class="button button-rounded" onclick="closeForm()">Back</button>
+    </form>
+</div>
+
 
 </html>
