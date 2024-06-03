@@ -393,6 +393,10 @@ footer{
     width: 100%;
 }
 
+.listNumb {
+    font-size: 1.75rem;
+}
+
 
 @media only screen and (max-width: 600px) {
     #delivery-content {
@@ -427,7 +431,7 @@ footer{
           display:flex;
           align-items:center;
           justify-content:center;
-          font-size: 0.7rem;
+          font-size: 1rem;
           border: solid black;
         }
     }

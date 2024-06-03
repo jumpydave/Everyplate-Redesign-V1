@@ -1,3 +1,5 @@
+//values requires for subserquent functions to work
+
 let topLeftToggle = 0;
 let topRightToggle = 0;
 let bottomLeftToggle = 0;
@@ -12,22 +14,27 @@ let nopTwoToggle = 0;
 let nopFourToggle = 0;
 let nopSixToggle = 0;
 
+//opens sign upform
 function openForm() {
     document.getElementById("signUpForm").style.display = "flex";
 }
 
+//closes sign up form
 function closeForm() {
     document.getElementById("signUpForm").style.display = "none";
 }
 
+//opens food expansion menu
 function openFood() {
     document.getElementById("foodForm").style.display = "flex";
 }
 
+//closes food expansion menu
 function closeFood() {
     document.getElementById("foodForm").style.display = "none";
 }
 
+//these subsequent functions all allow the colour changing selection boxes in the kit selection screen function
 function topLeftSelect() {
     elem = document.getElementById("top-left");
 
