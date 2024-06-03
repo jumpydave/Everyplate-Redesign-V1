@@ -167,4 +167,9 @@ footer{
     align-items: center;
     background-color: var(--epBackground);
     z-index: 9;
+    right: 25%;
+    left: 25%;
+    top: 25%; 
+    Bottom: 25%;
+
 }
